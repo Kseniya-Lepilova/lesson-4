@@ -1,0 +1,837 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.wrap {
+    width: 1400px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+    
+ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    display: inline-block;
+}
+
+.line {
+    width: 64px;
+    height: 2px;
+    border: none;
+}
+
+.description {
+    font-size: 14px;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 63px;
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.input--form {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid #ece9e9cc;
+}
+
+.input--form::placeholder {
+    color: #b6aeaecc;
+}
+
+/* =================================
+LOGO 
+===========================*/
+
+.facebook {
+    background: url(../img/logo/facebook.png);
+}
+
+.twitter {
+    background: url(../img/logo/twitter.png);
+}
+
+.google {
+    background: url(../img/logo/google.png);
+}
+
+.pinterest {
+    background: url(../img/logo/pinterest.png);
+}
+
+.instagram {
+    background: url(../img/logo/instagram.png);
+}
+
+.stumbleupon {
+    background: url(../img/logo/stumbleupon.png);
+}
+
+.rss {
+    background: url(../img/logo/rss.png);
+}
+
+/*=====================================
+NAV
+=====================================*/
+
+.header {
+    height: 71px;
+    line-height: 15px;
+    background-color: #000000;
+}
+
+.nav::before {    
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.header__logo {
+    display: inline-block;
+    width: 79px;
+    height: 27px;
+    margin-top: 21px;
+    margin-left: 150px;
+    background: url(../img/axit/logo-axit-it.png) no-repeat center center;
+    background-size: cover;
+}
+
+.header__list {
+    height: 15px;
+    vertical-align: middle;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.header__item:first-of-type {
+    padding-left: 582px;
+}
+
+.header__item {
+    padding-left: 48px;
+}
+
+/*=====================================
+INTRO BLOCK
+=====================================*/
+
+.intro {
+    height: 641px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/background/big-city.png) center no-repeat;
+}
+
+.intro__container {
+    display: inline-block;
+    width: 662px;
+    padding-top: 110px;
+    padding-left: 150px;
+    text-align: left;
+}
+
+.intro__logo {
+    height: 60px;
+    width: 175px;
+    background: url(../img/axit/logo-axit-it.png) no-repeat center center;
+    background-size: cover;
+    margin-left: 0;
+    
+}
+
+.intro__title {
+    padding-top: 33px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    border: none;
+}
+
+.intro__line {
+    margin: 36px auto 30px 0;
+    background-color: #FFFFFF;
+}
+
+.intro__description {
+    padding-bottom: 44px;
+}
+
+.intro--header--form {
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    background-color: #F5F5F5;
+}
+
+.intro--header--form span {
+    text-transform: uppercase;
+    color: #FF8D2D;
+}
+
+.intro__form {
+    display: inline-block;
+    width: 368px;
+    height: 320px;
+    margin-left: 222px;
+    background-color: #FFFFFF;
+}
+
+.intro--name,
+.intro--email,
+.intro-password
+{
+    padding-top: 30px;
+}
+
+form {
+    width: 285px;
+    margin: 0 auto;
+}
+
+.intro--submit {
+    width: 100%;
+    background-color: #FF8D2D;
+    border: none;
+    color: #FFFFFF;
+    padding: 20px 3px;
+    text-decoration: none;
+    margin: 50px 0;
+    cursor: pointer;
+}
+
+/*=====================================
+SOCIAL MEDIA BLOCK
+=====================================*/
+
+.social--container {
+    height: 106px;
+    background-color: #FFFFFF;
+}
+
+.social--container::before {   
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+
+}
+
+.social--head {
+    display: inline-block;
+    width: 360px;
+    margin-left: 150px;
+}
+
+.social--title {
+    padding-top: 13px;
+    font-size: 20px;
+    text-align: left;
+    color: #333333;
+}
+
+.social--description {
+    padding-top: 12px;
+    font-size: 14px;
+    text-align: left;
+    color: #86878B;
+}
+
+.social--nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.social--list {
+    height: 46px;
+    margin-bottom: 60px;
+}
+
+.social--link {
+    display: block;
+    height: 46px;
+    width: 46px;
+    background-size: cover;
+}
+
+.social--item {
+    margin-right: 45px;
+}
+
+.social--item:first-of-type {
+    margin-left: 87px;
+}
+
+/*=====================================
+             TABS BLOCK
+=====================================*/
+
+.tabs--container {
+    height: 596px;
+    background-color: #f5f5f5;
+    text-align: left;
+}
+
+.tab--blocks {
+    display: inline-block;
+    height: 338px;
+    width: 112px;
+    padding-left: 215px;
+    padding-top: 148px;
+}
+
+.tab--block {
+    height: 112px;
+    width: 112px;
+    background-color: #363434;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.tab--block:first-of-type {
+    background-color: #FF8B38;
+}
+
+.tab--span {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 112px;
+}
+
+.tab--head {
+    display: inline-block;
+    width: 436px;
+    margin-left: 199px;
+    margin-bottom: 230px;
+    vertical-align: middle;
+}
+
+.tab--head::before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.tab--title {
+    margin-bottom: 52px;
+    color: #000000;
+}
+
+.tab--description {
+    font-size: 14px;
+    color: #86878B;
+}
+
+.tab--description:first-of-type {
+    margin-bottom: 25px;
+}
+
+.tab--btn {
+    display: inline-block;
+    margin-top: 41px;
+    padding: 13px 30px;
+    background-color: #FF8B38;
+    border: 2px solid #FF8B38;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.buildings {
+    display: inline-block;
+    height: 253px;
+    width: 320px;
+    margin-left: 103px;
+    margin-top: 171px;
+    background: url(../img/buildings.png) no-repeat center;
+}
+
+/*=====================================
+WHY THIS IS AWESOME BLOCK
+=====================================*/
+
+.icons {
+    height: 593px;
+    background-color: #FFFFFF;
+}
+
+.icons--head {
+    padding-top: 109px;
+}
+
+.icons--title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #000000;
+}
+
+.icons--line {
+    margin: 30px auto;
+    background-color: #FF8D2D;
+}
+
+.icons--description {
+    text-align: center;
+    color:#86878B;
+}
+
+.cards {
+    padding: 40px 0 107px;
+    font-size: 0;
+}
+
+.card {
+    display: inline-block;
+    width: 350px;
+    margin: 0 16px;
+}
+
+.card--icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border: 2px solid #ff7f50;
+    border-radius: 50%;
+}
+
+.card--title {
+    margin: 29px auto;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.card--description {
+    font-size: 14px;
+    font-weight: 400;
+    color: #808080;
+}
+
+.lamp-icon {
+    background: url(../img/background/lamp.png) no-repeat center center;
+}
+
+.keyboard-icon {
+    background: url(../img/background/keyboard.png) no-repeat center center;
+}
+
+.lightning-icon {
+    background: url(../img/background/lightning.png) no-repeat center center;
+}
+
+/*=====================================
+PRICE BLOCK
+=====================================*/
+
+.price-container {
+    height: 884px;
+    background-color:#dadada;
+}
+
+.price--head {
+    padding-top: 109px;
+}
+
+.price--title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #000000;
+}
+
+.price--line {
+    margin: 30px auto;
+    background-color: #FF8D2D;
+}
+
+.price--description {
+    text-align: center;
+    color:#86878B;
+}
+
+.price-cards {
+    height: 497px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.pricing-card-short {
+    display: inline-block;
+    padding-top: 35px;
+    height: 462px;
+    width: 343px;
+}
+
+.pricing-card-short:first-of-type {
+    margin-left: 140px;
+}
+
+.pricing-card__title-section {
+    height: 59px;
+    margin-bottom: 1px;
+    background-color: #333333;
+}
+
+.pricing-card__title {
+    font-size: 20px;
+    text-align: center;
+    line-height: 59px;
+}
+
+.pricing-card__price-section {
+    height: 100px;
+    margin-bottom: 1px;
+    background-color: #333333;
+}
+
+.pricing-card__price {
+    font-family: 'Raleway', sans-serif;
+    font-size: 90px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.pricing-card__price::first-letter {
+    font-size: 35px;
+}
+
+.pricing-card__subtitle-section {
+    height: 56px;
+    background-color: #333333;
+    border-bottom: 5px solid #FF8D2D;
+}
+
+.pricing-card-tall .pricing-card__subtitle-section {
+    border-bottom: none;
+}
+
+.pricing-card-tall .pricing-card__subtitle {
+    line-height: 56px;
+}
+
+.pricing-card__subtitle {
+    font-size: 14px;
+    font-style: italic;
+    color: #86878B;
+    text-align: center;
+    line-height: 50px;
+}
+
+.pricing-card__descr {
+    background-color: #ffffff;
+}
+
+.pricing-card__descr-item {
+    display: block;
+    height: 40px;
+    width: 343px;
+    border-bottom: 0.5px solid #e6e6e6;
+    color: #86878B;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px;
+}
+
+.pricing-card-tall {
+    display: inline-block;
+    height: 497px;
+    width: 343px;
+    margin: auto 40px;
+}
+
+.pricing-card__orange-box {
+    height: 40px;
+    background-color: #FF8B38;
+}
+
+.pricing-card__orange-box__title {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+/*=====================================
+WHAT OUR CUSTOMERS ARE SAYING
+=====================================*/
+
+.customer {
+    height: 593px;
+    background-color: #FFFFFF;
+}
+
+.customer--head {
+    padding-top: 109px;
+}
+
+.customer--title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #000000;
+}
+
+.customer--line {
+    margin: 30px auto;
+    background-color: #FF8D2D;
+}
+
+.customer--description {
+    text-align: center;
+    color:#86878B;
+}
+
+.customer--cards {
+    height: 82px;
+    padding: 40px 0 107px;
+    font-size: 0;
+}
+
+.customer--card {
+    display: inline-block;
+    width: 350px;
+    margin: 0 16px;
+}
+
+.customer--icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border: 0.5px solid #ffffff;
+    border-radius: 50%;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.customer-card--title {
+    margin: 29px auto;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.customer-card--description {
+    height: 100px;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 24px 13px 41px 13px;
+    color: #808080;
+    background-color: #f5f5f5;
+    text-align: center;
+    vertical-align: baseline;
+}
+
+.man-icon {
+    background: url(../img/background/man.png) no-repeat center center;
+}
+
+/*==========================================
+ STYLISH AXURE DESIGN BLOCK 
+============================================*/
+
+.city {
+    display: inline-block;
+    width: 1400px;
+    text-align: center;
+    background: url(../img/background/city.png) no-repeat center center;
+    background-size: cover;
+    margin: 30px 30px;
+}
+
+.city-header {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    border: none;
+    color: #ffffff;
+    padding-top: 30px;
+}
+
+.city--line {
+    width: 64px;
+    height: 2px;
+    margin: 30px auto;
+    border: none;
+    background: #ffffff;
+}
+
+.city--head {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.city--btn {
+    width: 145px;
+    height: 42px;
+    background-color: transparent;
+    outline-style: none;
+    font-size: 15px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    margin: 40px;
+
+}
+
+.city--btn--txt { 
+    color: #ffffff;
+}
+
+/* ===========================================
+CONTACT BLOCK 
+==============================================*/
+
+.contact__form {
+    height: 613px;
+    text-align: center;
+}
+
+.contact--header--form {
+    padding-top: 109px;
+}
+
+.contact-header {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #000000;
+}
+
+.contact--line {
+    margin: 30px auto;
+    background-color: #FF8D2D;
+}
+
+.contact--description {
+    text-align: center;
+    color:#86878B;
+}
+
+.contact-cards {
+    width: 527px;
+    height: 31px;
+    margin-left: 10%;
+}
+
+.intro--name,
+.intro--email,
+.intro--password
+{
+    padding-top: 30px;
+}
+
+form {
+    width: 285px;
+    margin: 0 auto;
+}
+
+.contact--submit {
+    width: 10%;
+    height: 8%;
+    background-color: #FF8D2D;
+    border: none;
+    color: #FFFFFF;
+    padding: 20px 3px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 30px 0;
+    
+}
+
+.contact--message {
+    width: 130%;
+    height: 138px;
+    color: initial;
+    background-color: #ffffff;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #ccc;
+}
+
+.message-card {
+    margin-left: 53%;
+}
+
+/*==============================================
+Footer block 
+================================================ */
+
+.network--container {
+    
+    height: 101px;
+    background-color: #000000;
+}
+
+.network--container::before {   
+    display: inline-block;
+    vertical-align: middle;
+    height: 45%;
+
+}
+
+.network--nav {
+    width: 1400px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #000000;
+}
+
+.network--list {
+    height: 23px;
+    margin-bottom: 39px;
+}
+
+.network--link {
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: block;
+    background-size: cover;
+}
+
+.themes {
+    width: 1400px;
+    height: 20px;
+    /* vertical-align: sub; */
+    font-size: 12px;
+    /* margin: 0 auto 15px auto; */
+    background-color: #000000;
+    color: #ffffff;
+ 
+}
